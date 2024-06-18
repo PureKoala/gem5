@@ -47,7 +47,8 @@ HelloObject::HelloObject(const HelloObjectParams &params) :
     timesLeft(params.number_of_fires)
 {
     DPRINTF(HelloExample, "Created the hello object\n");
-    panic_if(!goodbye, "HelloObject must have a non-null GoodbyeObject");
+    // panic_if(!goodbye, "HelloObject must have a non-null GoodbyeObject");
+    // std::cout << "Hello World!!!" << std::endl;
 }
 
 void
